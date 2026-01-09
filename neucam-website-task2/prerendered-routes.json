@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/weather-dashboard-sample": {},
+    "/weather-dashboard-sample/counter": {},
+    "/weather-dashboard-sample/vatavaran": {}
+  }
+}
