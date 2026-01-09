@@ -21,10 +21,10 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 570, hash: 'ed98d2765f637b0ad52cb086dece21d031d79079fe9ed028d5ec7d0e04376a20', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1084, hash: '09dbdf7f585797b4ee3d19427909b8abfbd682ab4d3b13f3fa694917047a6942', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'vatavaran/index.html': {size: 6587, hash: 'c7804e1c0d3e872f6add572d735bac08bbd344674d12983a3d20ed216f5fa985', text: () => import('./assets-chunks/vatavaran_index_html.mjs').then(m => m.default)},
-    'counter/index.html': {size: 2864, hash: '304f0aad943b774ef9c714599143f3003623de4d4d8f4208300a4c8b6b0f7c74', text: () => import('./assets-chunks/counter_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 571, hash: '7fa27b0d275884075465c3b9a4344417e0aa501ca152c0c42c30d064e47c8d57', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1084, hash: '52da0d8b41b3fb64a2e3885a06a38b506c80ca1da81f6db6c3714e3ce8938bce', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'counter/index.html': {size: 2865, hash: 'f3efbc11a7c1615a78dc5fb978b6fba7883dcb9b59fc2ab3d20c4f5556b5ae4e', text: () => import('./assets-chunks/counter_index_html.mjs').then(m => m.default)},
+    'vatavaran/index.html': {size: 6588, hash: '327cdb9f54ea4b1f7d530385d94a9a8b7b2342f20e3d0ae379d0af9b6c27f100', text: () => import('./assets-chunks/vatavaran_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

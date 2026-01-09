@@ -1,5 +1,5 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
-  <base href="/weather-dashboard-sample/">
+   <base href="/weather-dashboard-sample/">
   <meta charset="utf-8">
   <title>NeucamWebsiteTask2</title>
   <base href="/weather-dashboard-sample/">
