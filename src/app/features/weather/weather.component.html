@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="left">
+
+    <div class="input-row">
+      <input [(ngModel)]="city" placeholder="Enter city">
+      <span class="add-btn" (click)="addCity()">+</span>
+    </div>
+    <div class="error">{{ error }}</div>
+
+    <h4>Recent Locations</h4>
+
+    <div *ngFor="let c of locations" class="city-row" (click)="loadForecast(c.name)">
+      <b>{{ c.name }}</b>
+      {{ c.main.temp }}°C
+      <img [src]="'https://openweathermap.org/img/wn/' + c.weather[0].icon + '.png'">
+
+      <button (click)="refreshCity(c.name); $event.stopPropagation()">⟳</button>
+      <button (click)="deleteCity(c.name); $event.stopPropagation()">✖</button>
+    </div>
+
+    <button (click)="clearAll()">Clear</button>
+  </div>
+
+  <div class="right" *ngIf="selectedForecast">
+    <div class="city-summary" *ngIf="selectedDetails">
+      <div class="city-name"><b>{{ selectedDetails.name }}</b></div>
+      <div class="city-temp">{{ selectedDetails.main.temp }}°C</div>
+      <div class="city-details">
+        <div *ngFor="let entry of selectedDetails.main | keyvalue">
+          {{ entry.key }}: {{ entry.value }}
+        </div>
+        <div *ngFor="let w of selectedDetails.weather">
+          {{ w.description }}
+        </div>
+      </div>
+    </div>
+
+    <h3>5 Day Forecast</h3>
+    <div class="forecast-list">
+      <div *ngFor="let f of getDailyForecasts()" class="forecast-item">
+        <div class="forecast-date">{{ f.dt * 1000 | date:'dd MMM yyyy' }}</div>
+        <div class="forecast-day">{{ f.dt * 1000 | date:'EEE' | lowercase }}</div>
+        <img class="forecast-icon" [src]="'https://openweathermap.org/img/wn/' + f.weather[0].icon + '.png'" alt="weather icon">
+        <div class="forecast-temp">{{ f.main.temp }}°C</div>
+      </div>
+    </div>
+  </div>
+</div>

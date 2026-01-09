@@ -1,0 +1,14 @@
+<div class="counter-container">
+
+  <div>Please click add/reset to start counter app</div>
+  <button class="button-blue" (click)="add()">Add</button>
+  <button class="button-blue" (click)="reset()">Reset</button>
+
+  <div *ngFor="let counter of counters$ | async" class="counter-row">
+    <span class="count button-blue">{{ counter.count }}</span>
+    <button class="button-grey" (click)="increment(counter.id)">Increment</button>
+    <button class="button-grey" (click)="decrement(counter.id)">Decrement</button>
+    <button class="button-red" (click)="delete(counter.id)">Delete</button>
+  </div>
+
+</div>

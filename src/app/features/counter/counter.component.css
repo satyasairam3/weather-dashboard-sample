@@ -1,0 +1,21 @@
+.counter-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-blue {
+    background-color: blue;
+    padding : 10px;
+}
+
+.button-grey {
+    background-color: grey;
+}
+
+.button-red {
+    background-color: red;
+}
+
+button{
+    margin: 15px;
+}
