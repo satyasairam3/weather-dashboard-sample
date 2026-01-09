@@ -1,4 +1,4 @@
-<!doctype html>
+export default `<!doctype html>
 <html lang="en" data-beasties-container="">
 <head>
   <base href="/weather-dashboard-sample/">
@@ -15,8 +15,9 @@
     }
   })();
 </script>
-<link rel="stylesheet" href="/weather-dashboard-sample/styles-5INURTSO.css"></head>
+<link rel="stylesheet" href="styles-5INURTSO.css"></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="/weather-dashboard-sample/polyfills-B6TNHZQ6.js" type="module"></script><script src="/weather-dashboard-sample/main-RUU7GOE2.js" type="module"></script></body>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-RUU7GOE2.js" type="module"></script></body>
 </html>
+`;
