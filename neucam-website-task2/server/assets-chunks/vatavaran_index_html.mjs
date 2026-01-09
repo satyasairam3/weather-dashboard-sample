@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-beasties-container><head>
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <base href="/weather-dashboard-sample/">
   <meta charset="utf-8">
   <title>NeucamWebsiteTask2</title>
@@ -17,6 +17,6 @@
 <body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
 </script><script>window.__jsaction_bootstrap(document.body,"ng",["click","input","compositionstart","compositionend"],["blur"]);</script>
   <app-root ng-version="19.2.18" ngh="2" ng-server-context="ssg"><app-header _nghost-ng-c696357529 ngh="0"><div _ngcontent-ng-c696357529><nav _ngcontent-ng-c696357529 class="nav"><a _ngcontent-ng-c696357529 routerlink="/counter" routerlinkactive="active" href="/weather-dashboard-sample/counter" class jsaction="click:;">Counter App 0</a><a _ngcontent-ng-c696357529 routerlink="/vatavaran" routerlinkactive="active" href="/weather-dashboard-sample/vatavaran" class="active" jsaction="click:;">Weather App</a></nav></div></app-header><router-outlet></router-outlet><app-weather _nghost-ng-c502926838 ngh="1"><div _ngcontent-ng-c502926838 class="container"><div _ngcontent-ng-c502926838 class="left"><div _ngcontent-ng-c502926838 class="input-row"><input _ngcontent-ng-c502926838 placeholder="Enter city" value class="ng-untouched ng-pristine ng-valid" jsaction="input:;blur:;compositionstart:;compositionend:;"><span _ngcontent-ng-c502926838 class="add-btn" jsaction="click:;">+</span></div><div _ngcontent-ng-c502926838 class="error"><!--ngetn--></div><h4 _ngcontent-ng-c502926838>Recent Locations</h4><!----><button _ngcontent-ng-c502926838 jsaction="click:;">Clear</button></div><!----></div></app-weather><!----></app-root>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-HMPUN5SO.js" type="module"></script>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-RUU7GOE2.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"10":"t0","13":"t1"},"c":{"10":[],"13":[]}},{"c":{"1":[{"i":"c502926838","r":1}]}}]}</script></body></html>
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"10":"t0","13":"t1"},"c":{"10":[],"13":[]}},{"c":{"1":[{"i":"c502926838","r":1}]}}]}</script></body></html>`;
