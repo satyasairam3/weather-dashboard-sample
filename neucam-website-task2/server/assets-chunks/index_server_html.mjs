@@ -1,6 +1,7 @@
 export default `<!doctype html>
 <html lang="en">
 <head>
+  <base href="/weather-dashboard-sample/"/>
   <meta charset="utf-8">
   <title>NeucamWebsiteTask2</title>
   <base href="/weather-dashboard-sample/">
